@@ -10,7 +10,7 @@ public class JdbcCrudApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JdbcCrudApplication.class, args);
-		Product product = new Product();
+		System.out.println("Programs runs successfully.");
 	}
 
 }
